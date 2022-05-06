@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'heading';
+    src: url('./fonts/avenir_next/AvenirNextLTPro-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'paragraph';
+    src: url('./fonts/campton/Campton-Light.woff2') format('woff2');
+}
+
+@import './colors.css';
+
+body {
+    font-family: 'paragraph';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'heading';
+}
