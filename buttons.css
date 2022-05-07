@@ -1,0 +1,14 @@
+.button {
+    font-family: 'avenir bold';
+    padding: 5px;
+}
+
+.button-large {
+    padding: 15px;
+}
+
+.button-default {
+    border: none;
+    background-color: var(--button-default-color);
+    color: var(--primary-text-color);
+}

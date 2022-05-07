@@ -3,24 +3,26 @@
 @import 'borders.css';
 @import 'shadows.css';
 @import 'containers.css';
+@import 'form.css';
+@import 'buttons.css';
 
 @font-face {
-    font-family: 'heading';
+    font-family: 'avenir bold';
     src: url('./fonts/avenir_next/AvenirNextLTPro-Bold.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'paragraph';
-    src: url('./fonts/campton/Campton-Light.woff2') format('woff2');
+    font-family: 'campton book';
+    src: url('./fonts/campton/Campton-Book.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'secondary';
-    src: url('./fonts/campton/Campton-ExtraLight.woff2');
+    font-family: 'campton light';
+    src: url('./fonts/campton/Campton-Light.woff2')  format('woff2');
 }
 
 body {
-    font-family: 'paragraph';
+    font-family: 'campton light';
     background-color: var(--bg-color);
 }
 
@@ -30,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'heading';
+    font-family: 'avenir bold';
 }
 
 a {
