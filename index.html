@@ -72,10 +72,19 @@
     <div class="centered-container">
         <form class="border-15 outer-shadow-2">
             <label for="fname">First name</label><br>
-            <input class="inner-shadow-1" type="text" id="fname" name="fname"><br>
+            <input class="input inner-shadow-1" type="text" id="fname" name="fname"><br>
             <label for="lname">Last name</label><br>
-            <input class="inner-shadow-1" type="text" id="lname" name="lname"><br><br>
-            <button class="button button-large button-default border-5 outer-shadow-2" type="submit">Submit</button>
+            <input class="input inner-shadow-1" type="text" id="lname" name="lname"><br><br>
+            <label for="lname">Favorite Language</label><br>
+            <div class="radio-wrapper-horizontal">
+                <label for="html">HTML</label>
+                <input class="radio" type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">CSS</label>
+                <input class="radio" type="radio" id="css" name="fav_language" value="CSS">
+                <label for="html">Javascript</label>
+                <input class="radio" type="radio" id="javascript" name="fav_language" value="Javascript">
+            </div>
+            <button class="button button-large button-default border-5 outer-shadow-2 margin-TopAndBottom" type="submit">Submit</button>
         </form>
     </div>
 

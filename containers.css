@@ -4,3 +4,9 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.radio-wrapper-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
