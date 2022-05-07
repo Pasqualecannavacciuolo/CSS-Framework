@@ -26,6 +26,7 @@ label {
 }
 
 .radio {
+    cursor: pointer;
     -webkit-appearance: none;
     appearance: none;
     /* For iOS < 15 to remove gradient background */
@@ -59,6 +60,7 @@ input[type="radio"]:checked::before {
 }
 
 input[type="checkbox"] {
+    cursor: pointer;
     width: 1.1em;
     height: 1.1em;
 }
