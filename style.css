@@ -1,3 +1,9 @@
+@import 'colors.css';
+@import 'cards.css';
+@import 'borders.css';
+@import 'shadows.css';
+@import 'containers.css';
+
 @font-face {
     font-family: 'heading';
     src: url('./fonts/avenir_next/AvenirNextLTPro-Bold.woff2') format('woff2');
@@ -8,10 +14,14 @@
     src: url('./fonts/campton/Campton-Light.woff2') format('woff2');
 }
 
-@import './colors.css';
+@font-face {
+    font-family: 'secondary';
+    src: url('./fonts/campton/Campton-ExtraLight.woff2');
+}
 
 body {
     font-family: 'paragraph';
+    background-color: var(--bg-color);
 }
 
 h1,
@@ -21,4 +31,9 @@ h4,
 h5,
 h6 {
     font-family: 'heading';
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
