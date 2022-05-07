@@ -17,7 +17,7 @@ label {
 .input {
     font-family: inherit;
     border: none;
-    height: 12%;
+    height: 7%;
     width: 99%;
 }
 
@@ -34,8 +34,8 @@ label {
     margin: 0;
     font: inherit;
     color: currentColor;
-    width: 1.15em;
-    height: 1.15em;
+    width: 0.95em;
+    height: 0.95em;
     border: 0.15em solid currentColor;
     border-radius: 50%;
     margin-top: 1em;
@@ -46,8 +46,8 @@ label {
 
 input[type="radio"]::before {
     content: "";
-    width: 0.65em;
-    height: 0.65em;
+    width: 0.55em;
+    height: 0.55em;
     border-radius: 50%;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
@@ -56,4 +56,9 @@ input[type="radio"]::before {
 
 input[type="radio"]:checked::before {
     transform: scale(1);
+}
+
+input[type="checkbox"] {
+    width: 1.1em;
+    height: 1.1em;
 }

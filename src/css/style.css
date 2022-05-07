@@ -8,17 +8,17 @@
 
 @font-face {
     font-family: 'avenir bold';
-    src: url('../../dist/fonts/avenir_next/AvenirNextLTPro-Bold.woff2') format('woff2');
+    src: url('../../fonts/avenir_next/AvenirNextLTPro-Bold.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'campton book';
-    src: url('../../dist/fonts/campton/Campton-Book.woff2') format('woff2');
+    src: url('../../fonts/campton/Campton-Book.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'campton light';
-    src: url('../../dist/fonts/campton/Campton-Light.woff2')  format('woff2');
+    src: url('../../fonts/campton/Campton-Light.woff2')  format('woff2');
 }
 
 body {

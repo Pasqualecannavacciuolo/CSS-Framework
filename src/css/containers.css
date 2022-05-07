@@ -5,8 +5,8 @@
     justify-content: space-evenly;
 }
 
-.radio-wrapper-horizontal {
+.wrapper-horizontal {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    gap: 15px;
 }

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../dist/index.b2ebed04.css">
-    <link rel="stylesheet" href="../dist/index.c92073ef.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>CSS Framework</title>
 </head>
 
@@ -72,18 +72,27 @@
     <div class="centered-container">
         <!-- FORM -->
         <form class="border-15 outer-shadow-2">
-            <label for="fname">First name</label><br>
-            <input class="input inner-shadow-1" type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name</label><br>
-            <input class="input inner-shadow-1" type="text" id="lname" name="lname"><br><br>
-            <label for="lname">Favorite Language</label><br>
-            <div class="radio-wrapper-horizontal">
+            <label for="fname">First name</label>
+            <input class="input inner-shadow-1" type="text" id="fname" name="fname">
+            <label for="lname">Last name</label>
+            <input class="input inner-shadow-1" type="text" id="lname" name="lname">
+            <label for="fav_language">Favorite Language</label>
+            <div class="wrapper-horizontal">
                 <label for="html">HTML</label>
                 <input class="radio" type="radio" id="html" name="fav_language" value="HTML">
                 <label for="html">CSS</label>
                 <input class="radio" type="radio" id="css" name="fav_language" value="CSS">
                 <label for="html">Javascript</label>
                 <input class="radio" type="radio" id="javascript" name="fav_language" value="Javascript">
+            </div>
+            <label for="sex">Select a sex</label>
+            <div class="wrapper-horizontal">
+                <label for="male">Male</label>
+                <input type="checkbox" id="male">
+                <label for="female">Female</label>
+                <input type="checkbox" id="female">
+                <label for="other">Other</label>
+                <input type="checkbox" id="other">
             </div>
             <button class="button button-large button-default border-5 outer-shadow-2 margin-TopAndBottom" type="submit">Submit</button>
         </form>
